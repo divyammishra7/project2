@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+body{
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style: none;
+    margin-left: 40px;
+  
+
+
+}
+.navbar li{
+    padding: 3px 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Segoe UI';
+
+}
+.navbar li.home{
+    padding: 3px 30px;
+    color: #f0860c;
+   
+    font-family:'Segoe UI' ;
+    font-weight: 500;
+
+    
+}
+
+
+.image{
+    display: flex;
+justify-content: flex-end;
+}
+
+.image img{
+    width: 800px;
+    
+}
+.contact{
+    margin-left: 300px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+   
+
+   
+}
+.content p.intro{
+    margin-top: -546px;
+    margin-left: 70px;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 28px;
+
+}
+.content p.second{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    margin-top: 28px;
+    margin-left: 64px;
+
+
+}
+.content p.secondb{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    margin-top: 5px;
+    margin-left: 64px;
+
+
+}
+.content span{
+    padding: 0 10px;
+}
+.content p.third{
+    color: #cccccc;
+    font-size: 21px;
+    line-height: 29px;
+    margin-top:18px;
+    margin-left:70px;
+    font-weight: 400;
+}
+.content p.four{
+
+    font-weight: 400;
+    color: #cccccc;
+    font-size: 21px;
+    line-height: 29px;
+    margin-top: 18px;
+    margin-left: 70px;
+}
+.content p.four a{
+    color: #f0860c;
+    text-decoration: none;
+    font-weight: 300;
+}
+.content p.five{
+    font-weight: 400;
+    color: #cccccc;
+    font-size: 21px;
+    line-height: 29px;
+    margin-top: 18px;
+    margin-left: 70px;
+
+}
+.content p.six{
+   
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.content p.six a{
+    text-decoration: none;
+    color: #f0860c;
+}
+@media(max-width:1221px){
+    .content{ 
+        justify-content:center;
+        align-items: center;
+        min-height: 1300px;
+        margin-right: -350px;
+        text-align: center;
+    }
+    .image img{
+        flex-direction: row;
+        justify-content: center;
+        width:1200px;
+        margin-right: -350px;
+        
+    }
+}
